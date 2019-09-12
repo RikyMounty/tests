@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+C:\lavoro\IDE\Photon\defaultWorkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3512174372.index
+\springboot-jsp-helloworld\src\main\java
+C:\lavoro\IDE\Photon\defaultWorkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2730152307.index
+\spring-boot-web-jsp\src\test\java
+C:\lavoro\IDE\Photon\defaultWorkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\408043143.index
+\springboot-registration-login\src\main\java

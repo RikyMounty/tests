@@ -1,0 +1,10 @@
+INDEX VERSION 1.4+C:\lavoro\IDE\Photon\defaultWorkspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1070608817.index
+1098508213.index
+994847119.index
+1338315834.index
+3821251839.index
+1383237464.index
+3821251839.index
+1566371374.index
+3893816858.index

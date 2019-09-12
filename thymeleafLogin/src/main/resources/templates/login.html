@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th=https://www.thymeleaf.org>
+<head>
+<meta charset="ISO-8859-1">
+<title> Pagina accesso </title>
+</head>
+<body>
+<h1> Form Accesso</h1>
+<form th:action="@{/nuovoSpid}" th:object="${loginForm}" method="post"> </form>
+
+<input id="username "type="text" placeholder="name" autofocus="autofocus"/>
+<input id="password" type="password" placeholder="password" autofocus="autofocus"/>
+
+<p class="message">Già registrato? <a href="#">Accedi</a></p>
+<button>login</button>
+
+
+<p class="message">Non registrato? <a href="#">Crea un account</a></p>
+<button>create</button>
+      
+</body>
+</html>

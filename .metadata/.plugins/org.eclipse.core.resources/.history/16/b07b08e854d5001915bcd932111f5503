@@ -1,0 +1,14 @@
+<html xmlns:th="https://www.thymeleaf.org"> 
+<head>
+<meta>
+<title>Home</title>
+</head>
+<body>
+<h1> ======== </h1>
+<h1> BENVENUTI! </h1>
+<h1> ======== </h1>
+
+<a th:href="{@/login}"> Accedi </a>
+
+</body>
+</html>
