@@ -10,24 +10,32 @@ import com.thimeleaf.controller.entità.LoginForm;
 
 @Controller
 public class LoginController {
-	@RequestMapping(value="/nuovoSpid", method=RequestMethod.GET)
+	
+	//getHome
+	@RequestMapping(value= {"/nuovoSpid","/"}, method=RequestMethod.GET)
  public String getLoginForm() {
 	
-	 //nome pagina
-	return "login";
-	 
+	return "index"; 
  }
-  
-	//mini controllo
-	@RequestMapping(value="/nuovoSpid",method=RequestMethod.POST) 
+	
+	
+  //getAreaPrivata
+	@RequestMapping(value= "/areaPrivata", method=RequestMethod.GET)
+	 public String gethome() {
+		
+		return "areaPrivata";
+	}
+
+	@RequestMapping(value="/controlloLogin",method=RequestMethod.POST) 
 		public String login(@ModelAttribute (name="loginForm")LoginForm loginForm, Model model){
 			
 		String username= loginForm.getUsername();
 		String password= loginForm.getPassword();
 		
+		//mini login
 		if("admin".equals(username) && "admin".equals(password)) {
 		
-		return "home";
+		return "areaPrivata"; 
 			
 		}else {
 			model.addAttribute("CredenzialiErrate", true);
