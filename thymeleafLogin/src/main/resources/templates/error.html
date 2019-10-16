@@ -5,12 +5,9 @@
 <title> Index Page</title>
 </head>
 <body>
-<h1> ============================================================================ </h1>
-<h1>  Si e' verificato un errore durante il caricamento della pagina, siamo spiacenti     </h1>
-<h1> ============================================================================ </h1>
 
-<a th:href="@{/}"> torna alla pagina principale </a>
-<br>
-<a th:href="@{/login}"> torna alla pagina di login </a>
+<div th:replace="fragments/errorFragments :: body"></div>
+<div th:replace="fragments/errorFragments :: footer"></div>
+
 </body>
 </html>
