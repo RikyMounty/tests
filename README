@@ -1,6 +1,7 @@
 Questo progetto ha lo scopo di creare una pagina di login con thymeleaf e spring boot.
 
-Punti d'interesse. 
-Login inizialmente statica
+Punti d'interesse:
+Login statica
 Inserire bottone di accesso a spid.
-Grafica dovrà essere accattivante.
+Gestione errori tramite uri
+Grafica moderna e accattivante.
