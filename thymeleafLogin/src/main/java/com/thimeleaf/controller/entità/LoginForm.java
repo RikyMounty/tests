@@ -1,5 +1,6 @@
 package com.thimeleaf.controller.entità;
 
+
 public class LoginForm {
  private String username;
  private String password;
